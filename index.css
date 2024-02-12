@@ -318,6 +318,7 @@ button:hover {
 
     .heading{
         font-size: 50px;
+        color: #fff;
         
     }
 
@@ -325,7 +326,7 @@ button:hover {
     .mycontainer{
         margin: auto;
         width: 50%;
-        padding: 10px;
+        padding: 35%;
     }
 
     /* ======================== socialmedia =========== */
@@ -347,4 +348,5 @@ button:hover {
         margin: auto;
         width: 50%;
         padding: 10px;
+        color: #fff;
     }
