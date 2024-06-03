@@ -285,9 +285,10 @@ button:hover {
     }  */
 
     .bmipro{
-        margin-left: 5%;
+        margin-left: 10%;
         width: 415px;
-        float: left;
+/*         float: left; */
+        display: inline-block;
     }
                        /* TEXT */
     /* .por_01{
