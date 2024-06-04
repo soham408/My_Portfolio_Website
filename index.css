@@ -287,9 +287,19 @@ button:hover {
 
     .bmipro{
         margin-left: 10%;
-        width: 415px;
+        width: 400px;
         /* float: left; */
         display: inline-block;
+        border-radius: 5%;
+    }
+
+    .bmipro:hover{
+        transform: scale(0.90);
+        border: 2px solid rgb(207, 136, 55);
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        transition: all 0.2s ease;
+        cursor: pointer;
     }
                        /* TEXT */
     /* .por_01{
@@ -342,18 +352,19 @@ button:hover {
     }
     
     #contact {
-        background-color: #ffffff;
+        background-color: #cec6af;
         padding: 50px 20px;
         text-align: center;
+        border-radius: 3%;
     }
     
     .contact-container {
         max-width: 600px;
         margin: 0 auto;
-        padding: 20px;
-        border: 1px solid #e0e0e0;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        background-color: #ffffff;
+        padding: 30px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        background-color: #f4ecec;
+        border-radius: 10px;
     }
     
     .contact-container h2 {
@@ -409,3 +420,9 @@ button:hover {
         padding: 10px;
         color: #fff;
     }
+
+/* smooth scroll down when click on nav bar option */
+
+html{
+    scroll-behavior: smooth;
+}
