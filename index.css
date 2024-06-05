@@ -7,9 +7,9 @@ body{
 -webkit-font-smoothing: antialiased;
 }
 
-/* =========== Navigation bar / Logo =================== */
+/* =========== Navigation bar =================== */
 
-.navdiv ul{
+ .navdiv ul{
      list-style: none;
      background: none;
      text-align: right;
@@ -21,16 +21,25 @@ body{
 .navdiv li{
     display: inline-block;
     text-decoration: none;
-    color: #c4a8a8;
     width: 100px;
     padding: 8px;
-    font-size: 19px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: cursive;
 }
 
-.navdiv{
- color: aqua;   
+ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 19px;
 }
+
+ul li a:hover{
+    transition: 0.5s all ease-in-out;
+    color: rgb(155, 94, 9);
+    font-size: 20px;
+    
+}
+
+/* =================logo============== */
 
 .logo{
     position: absolute;
@@ -47,96 +56,30 @@ body{
     
 }
 
-ul li{
-    padding: 10px 15px;
-    margin: 0 10px;
-    position: relative;
-}
 
-ul li::before,
-ul li::after {
-    position: absolute;
-    content: '';
-    width: 0%;
-    height: 2px;
-    background-color: #fff;
-    transition: 0.3s all ease-in-out;
-}
-
-ul li::before {
-    top: 0;
-    left: 0;
-}
-
-ul li::after {
-    bottom: 0;
-    right: 0;
-}
-
-
-ul li a {
-text-decoration: none;
-cursor: pointer;
-color: #fff;
-
-}
-
-ul li:hover::before {
-    right: 0;
-    left: auto;
-    width: 100%;
-    background-color: khaki;
-}
-ul li:hover::after {
-    right: 0;
-    left: auto;
-    width: 100%;
-    background-color: khaki;
-}
-
-ul li a {
-    text-decoration: none;
-    cursor: pointer;
-    color: white;
-    font-size: 19px;
-    transition: 0.3s all ease-in-out;
-}
-
-ul li:hover a{
-    color: khaki;
-}
+/*================ paragraph(intro)=============== */
 
 p{
     text-align: center;
     font-size: large;
     color: #fff;
-    
-}
-
-/* .vertical-center{
-    margin: 0;
-  position: absolute;
-  top: 50%;
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-} */
+    font-family: cursive;
+} 
 
 /* ======================================= Viwe CV Button =============================== */
 
 button{
     position: relative;
     left: 45%;
-    bottom: 40%;
     height: 50px;
     width: 150px;
-    font-size: 100%;
+    font-size: 130%;
     text-align: center;
     border: 2px solid black;
     color: #fff;
-    cursor: pointer;
     background: transparent;
     transition: all 0.2s ease;
-    border-radius: 10px;
+    font-family: cursive;
 }
 
 button:hover {
@@ -149,9 +92,9 @@ button:hover {
     color: white;
 }
 
-.body style {
+/* .body style {
     left: 30px;
-}
+} */
 
 
 
@@ -164,6 +107,7 @@ button:hover {
         background: none;
         align-items: center;
         justify-content: center;
+        font-family: cursive;
     }
 
     .Techskill{
@@ -189,6 +133,7 @@ button:hover {
         font-size: 14px;
         font-weight: 600;
         color: #fff;
+        font-size: 30px;
     }
     .skill-box .skill-bar{
         height: 8px;
@@ -203,7 +148,7 @@ button:hover {
         height: 100%;
         width: 90%;
         border-radius: 6px;
-        background: #4070f4;
+        background: #d1afa2;
         animation: progress 0.4s ease-in-out forwards;
         opacity: 0;
     }
@@ -241,7 +186,7 @@ button:hover {
         color: #fff;
         padding: 2px 6px;
         border-radius: 3px;
-        background: #4070f4;
+        background: #40a3f4;
         z-index: 1;
     }
     .tooltip::before{
@@ -262,10 +207,6 @@ button:hover {
         margin-bottom: 100%S;
     }
 
-    /* .bgimage{
-        margin-top: 100%;
-    } */
-
 
 
     /* ================================ project section ========================= */
@@ -278,22 +219,18 @@ button:hover {
         margin: 50px;
         place-items: center;
         display: grid;
+        font-family: cursive;
     }
-                    /* BMI IMAGE */
+          
 
-     /* .proContainer{
-        padding: 0 100px;
-    }  */
-
-    .bmipro{
+    .pro{
         margin-left: 10%;
         width: 400px;
-        /* float: left; */
         display: inline-block;
         border-radius: 5%;
     }
 
-    .bmipro:hover{
+    .pro:hover{
         transform: scale(0.90);
         border: 2px solid rgb(207, 136, 55);
         border-radius: 10px;
@@ -301,116 +238,41 @@ button:hover {
         transition: all 0.2s ease;
         cursor: pointer;
     }
-                       /* TEXT */
-    /* .por_01{
-        margin-left: 5%;
-        display: flex;
-        top: 8px;
-        left: 16px;
-
-    } */
-
-    /* .por_02{
-        margin-right: 5%;
-        display: flex;
-        top: 8px;
-        right: 16px;
-        
-    } */
-
-                  /* PORTFOLIO image */
-    /* .portpro{
-        margin-right: 5%;
-        width: 415px;
-        float: right;
-        text-align: center;
-    } */
-
-    /* .portpro{
-        margin-left: 5%;
-        width: 415px;
-        float: left;
-    } */
 
     /* ================= Contact Info =============== */
 
-/*     .heading{
-        font-size: 50px;
-       color: #fff;
-        
-    }
-
-    
-    .mycontainer{
-        margin: auto;
-        width: 50%;
-        padding: 35%;
-    } */
-
-#resize{
-        font-size: 200%;
-    }
-    
     #contact {
+          /* ==========contact outerbox============ */
         background-color: #cec6af;
         padding: 50px 20px;
         text-align: center;
         border-radius: 3%;
+        font-family: cursive;
     }
-    
+
     .contact-container {
+        /* ==========contact middle box=========== */
         max-width: 600px;
         margin: 0 auto;
         padding: 30px;
         box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-        background-color: #f4ecec;
+        background-color: #b0ac62;
         border-radius: 10px;
     }
-    
-    .contact-container h2 {
-        margin-bottom: 20px;
-        color: #333333;
-    }
+
+    #resize{  
+        /* contact info heading */
+            font-size: 250%;
+            color: #f0e6e6;
+        }
     
     .form-group {
+        /* middle box text area */
         margin-bottom: 15px;
         text-align: left;
+        display: inline-block;
+        letter-spacing: 3px;
     }
-    
-    .form-group label {
-        display: block;
-        margin-bottom: 5px;
-        color: #555555;
-    }
-    
-    .form-group input,
-    .form-group textarea {
-        width: 100%;
-        padding: 10px;
-        border: 1px solid #cccccc;
-        border-radius: 4px;
-        box-sizing: border-box;
-    }
-    
-    .form-group input:focus,
-    .form-group textarea:focus {
-        outline: none;
-        border-color: #666666;
-    }
-    
-
-    /* ======================== socialmedia =========== */
-
-    .socialmedia{
-        font-size: 50px;
-        color: black;
-    }
-
-    .socialmedia :hover{
-        transform: scale(0.96);
-        color: #000;
-    }
-
 
     /* ============== copyright ========== */
 
@@ -419,10 +281,11 @@ button:hover {
         width: 50%;
         padding: 10px;
         color: #fff;
+        font-family: cursive;
     }
 
-/* smooth scroll down when click on nav bar option */
+       /* smooth scrolling down when click on nav bar options */
 
-html{
-    scroll-behavior: smooth;
-}
+    html{
+        scroll-behavior: smooth;
+    }
