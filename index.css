@@ -97,6 +97,23 @@ button:hover {
     left: 30px;
 } */
 
+/* ==========================back to top button================ */
+
+#backtotop{
+    z-index: 999;
+    position: fixed;
+    bottom: 5px;
+    float: right;
+    right: 18.5%;
+    left: 77.25%;
+    width: 60px;
+    height: 50px;
+    border-radius: 30%;
+    background: #87ceeb;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.2s ease;
+}
+
 
 
 /* =================================== Technical Skills =================================== */
