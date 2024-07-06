@@ -69,6 +69,7 @@ p{
 /* ======================================= Viwe CV Button =============================== */
 
 button{
+    background-color: #ff90e8;
     display: block;
     margin: auto;
     left: 45%;
@@ -80,18 +81,23 @@ button{
     color: #fff;
     background: transparent;
     transition: all 0.2s ease;
-    font-family: sans-serif;
+    font-family: sans-serif;;
 }
 
 button:hover {
-    transform: scale(0.96);
-    border: 2px solid rgb(39, 35, 35);
-    border-radius: 10px;
-}
-
-.myclass{
-    color: white;
-}
+    --bg: #000;
+  --hover-bg: #ff90e8;
+  --hover-text: #000;
+    color: var(--hover-text);
+    transform: translate(-0.25rem, -0.25rem);
+    background: var(--hover-bg);
+    box-shadow: 0.25rem 0.25rem var(--bg);
+  }
+  
+  button:active {
+    transform: translate(0);
+    box-shadow: none;
+  }
 
 /* .body style {
     left: 30px;
@@ -118,7 +124,7 @@ button:hover {
 
 /* =================================== Technical Skills =================================== */
 
-    .Skillsection{
+/*     .Skillsection{
         height: 100vh;
         width: 70%;
         display: flex;
@@ -126,14 +132,64 @@ button:hover {
         align-items: center;
         justify-content: center;
         font-family: sans-serif;
-    }
+    } */
 
     .Techskill{
-      font-size: 50px;
-      color: #fff;
-    }
+    font-size: 50px;
+    color: #fff;               
+    margin: 50px;
+    place-items: center;
+    display: grid;
+    font-family: sans-serif;
+}
 
-    .container{
+.imgHTML{
+    width: 8%;
+    height: 10%;
+    margin: 50px;
+}
+.imgCSS{
+    width: 8%;
+    height: 10%;
+    margin: 50px;
+}
+.imgJS{
+    width: 8%;
+    height: 10%;
+    margin: 50px;
+}
+.imgReact{
+  width: 8%;
+  height: 10%;
+  margin: 50px;
+}
+.imgGIT{
+    width: 8%;
+    height: 10%;
+    margin: 50px;
+}
+.imgGITHUB{
+    width: 8%;
+    height: 10%;
+    margin: 50px;
+}
+.imgVB{
+    width: 8%;
+    height: 10%;
+    margin: 50px;
+}
+.imgSQL{
+    width: 8%;
+    height: 10%;
+    margin: 50px;
+}
+.imgVSCODE{
+    width: 8%;
+    height: 10%;
+    margin: 50px;
+}
+
+/*     .container{
         position: relative;
         max-width: 500px;
         width: 100%;
@@ -223,7 +279,7 @@ button:hover {
     .ul .pic{
         position: relative;
         margin-bottom: 100%S;
-    }
+    } */
 
 
 
