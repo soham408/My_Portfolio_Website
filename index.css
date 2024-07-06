@@ -78,16 +78,15 @@ button{
     font-size: 130%;
     text-align: center;
     border: 2px solid black;
-    color: #fff;
     background: transparent;
     transition: all 0.2s ease;
-    font-family: sans-serif;;
+    font-family: sans-serif;
+    border-radius: 10%;
 }
 
+
 button:hover {
-    --bg: #000;
   --hover-bg: #ff90e8;
-  --hover-text: #000;
     color: var(--hover-text);
     transform: translate(-0.25rem, -0.25rem);
     background: var(--hover-bg);
@@ -98,7 +97,6 @@ button:hover {
     transform: translate(0);
     box-shadow: none;
   }
-
 /* .body style {
     left: 30px;
 } */
@@ -106,6 +104,7 @@ button:hover {
 /* ==========================back to top button================ */
 
 #backtotop{
+    background-color: #ff90e8;
     z-index: 999;
     position: fixed;
     bottom: 5px;
@@ -115,9 +114,9 @@ button:hover {
     width: 60px;
     height: 50px;
     border-radius: 30%;
-    background: #87ceeb;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     transition: all 0.2s ease;
+    background: var(--hover-bg);
+    box-shadow: 0.25rem 0.25rem var(--bg);
 }
 
 
