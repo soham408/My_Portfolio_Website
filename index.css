@@ -53,8 +53,17 @@ ul li a:hover{
     text-decoration: none;
     mix-blend-mode: color-burn;
     color: aqua;
+
+    animation: rotate 3s linear infinite;
     
 }
+
+@keyframes rotate {
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
 
 
 /*================ paragraph(intro)=============== */
@@ -68,38 +77,27 @@ p{
 
 /* ======================================= Viwe CV Button =============================== */
 
-button{
-    background-color: #ff90e8;
+#anchor{
+    background-color: #9fced1;
+    height: 40px;
+    width: 100px;
     display: block;
     margin: auto;
     left: 45%;
-    height: 50px;
-    width: 150px;
     font-size: 130%;
     text-align: center;
     border: 2px solid black;
-    background: transparent;
     transition: all 0.2s ease;
     font-family: sans-serif;
-    border-radius: 10%;
+    border-radius: 8%;
+    transform-style: preserve-3d;
 }
 
-
-button:hover {
-  --hover-bg: #ff90e8;
-    color: var(--hover-text);
-    transform: translate(-0.25rem, -0.25rem);
-    background: var(--hover-bg);
-    box-shadow: 0.25rem 0.25rem var(--bg);
-  }
-  
-  button:active {
-    transform: translate(0);
-    box-shadow: none;
-  }
-/* .body style {
-    left: 30px;
-} */
+button:hover{
+    transform: rotateY(180deg);
+    background-color: #edc272;
+    transition: transform 0.10s;
+}
 
 /* ==========================back to top button================ */
 
@@ -147,45 +145,106 @@ button:hover {
     height: 10%;
     margin: 50px;
 }
+
+.imgHTML:hover{
+    transform-style: preserve-3d;
+    transform: rotateY(180deg);
+    transition: transform 0.20s; 
+}
 .imgCSS{
     width: 8%;
     height: 10%;
     margin: 50px;
 }
+
+.imgCSS:hover{
+    transform-style: preserve-3d;
+    transform: rotateY(180deg);
+    transition: transform 0.20s; 
+}
+
 .imgJS{
     width: 8%;
     height: 10%;
     margin: 50px;
 }
+
+.imgJS:hover{
+    transform-style: preserve-3d;
+    transform: rotateY(180deg);
+    transition: transform 0.20s; 
+}
+
 .imgReact{
   width: 8%;
   height: 10%;
   margin: 50px;
 }
+
+.imgReact:hover{
+    transform-style: preserve-3d;
+    transform: rotateY(180deg);
+    transition: transform 0.20s; 
+}
+
 .imgGIT{
     width: 8%;
     height: 10%;
     margin: 50px;
 }
+
+.imgGIT:hover{
+    transform-style: preserve-3d;
+    transform: rotateY(180deg);
+    transition: transform 0.20s; 
+}
+
 .imgGITHUB{
     width: 8%;
     height: 10%;
     margin: 50px;
 }
+
+.imgGITHUB:hover{
+    transform-style: preserve-3d;
+    transform: rotateY(180deg);
+    transition: transform 0.20s; 
+}
+
 .imgVB{
     width: 8%;
     height: 10%;
     margin: 50px;
 }
+
+.imgVB:hover{
+    transform-style: preserve-3d;
+    transform: rotateY(180deg);
+    transition: transform 0.20s; 
+}
+
 .imgSQL{
     width: 8%;
     height: 10%;
     margin: 50px;
 }
+
+.imgSQL:hover{
+    transform-style: preserve-3d;
+    transform: rotateY(180deg);
+    transition: transform 0.20s; 
+}
+
 .imgVSCODE{
     width: 8%;
     height: 10%;
     margin: 50px;
+}
+
+.imgVSCODE:hover{
+    transform-style: preserve-3d;
+    transform: rotateY(180deg);
+    transition: transform 0.20s; 
 }
 
 /*     .container{
@@ -286,31 +345,82 @@ button:hover {
 
                          
                             /* title (project) */
-    .por_jects_01{
+     .por_jects_01{
         font-size: 50px;
         color: #fff;               
         margin: 50px;
         place-items: center;
         display: grid;
         font-family: sans-serif;
-    }
-          
+    } 
 
-    .pro{
+    /* .proTEXTbmi{
+        text-align: left;
+        padding-left: 15px;
+    }
+      
+    .proIMGbmi{
+        height: 200px;
+        width: 330px;
+        place-items: left;
+        font-family: sans-serif;
+        padding-left: 15px;
+        border-radius: 15px;
+    } */
+
+    /* .ProHorizontal{
+        text-align: center;
+        padding-left: 15px;
+    } */
+
+    #proTEXTbmi{
+        justify-content: left;
+        text-align: left;
+        padding-bottom: 50px;
+        
+    }
+
+    #proTEXTportfolio{
+        text-align: center;
+        padding-left: 18%;
+        padding-bottom: 50px;
+    }
+
+    #proTEXTGitLogg{
+        text-align: right;
+        padding-right: 10%;
+        padding-bottom: 30%;
+
+    }
+
+    .ProHorizontal{
+        /* justify-content: space-between; */
+        height: 150px;
+        width: 75px;
+        place-items: left;
+        display: grid;
+        font-family: sans-serif;
+        padding-left: 15px;
+        border-radius: 500px;
+        justify-content: space-between;
+        display: flex;
+        position: relative;
+        padding-bottom: 250px;
+        /* margin-left: 120px; */
+        padding-inline: 5px;
+        margin: 5px;
+    }
+
+    
+    
+    /* .pro{
+        position: absolute;
         margin-left: 10%;
-        width: 400px;
+        width: 250px;
         display: inline-block;
         border-radius: 5%;
-    }
+    } */
 
-    .pro:hover{
-        transform: scale(0.90);
-        border: 2px solid rgb(207, 136, 55);
-        border-radius: 10px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-        transition: all 0.2s ease;
-        cursor: pointer;
-    }
 
     /* ================= Contact Info =============== */
 

@@ -16,3 +16,8 @@ function scrollFunction() {
 backtotop.addEventListener("click", function() {
     window.scrollTo({top: 0, behavior: 'smooth'});
 });
+
+
+// window.addEventListener('scroll', () => {
+//     document.body.style.setProperty('--scroll',window.pageYOffset- 5 / (document.body.offsetHeight - window.innerHeight));
+//   }, false);
