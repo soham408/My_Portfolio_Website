@@ -1,18 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import Home from './components/Home/Home.jsx';
-import { Route } from 'react-router-dom';
 import {RouterProvider, createBrowserRouter, createRoutesFromElements } from 'react-router-dom';
-import Header from './components/Header/Header.jsx';
-
+import Layout from './components/Layout.jsx'
+import { Route } from 'react-router-dom';
+import './index.css';
+// import Home from './components/Home/Home.jsx';
+import Home from './components/Home/Home.jsx'
 
 const router = createBrowserRouter(
   createRoutesFromElements(
    <>
+    <Route path='/' element={<Layout />} />
     <Route path='' element={<Home />} />
-    <Route path='' element={<Header />}/>
     </>
+
+    
+    
   )
 )
 
@@ -21,3 +24,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <RouterProvider router={router} />
   </React.StrictMode>,
 )
+
+
+
