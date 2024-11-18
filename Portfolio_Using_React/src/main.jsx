@@ -6,12 +6,14 @@ import { Route } from 'react-router-dom';
 import './index.css';
 // import Home from './components/Home/Home.jsx';
 import Home from './components/Home/Home.jsx'
+import logo from './assets/logo.png'
 
 const router = createBrowserRouter(
   createRoutesFromElements(
    <>
     <Route path='/' element={<Layout />} />
     <Route path='' element={<Home />} />
+    <Route path='' element={<assets />} />
     </>
 
     
