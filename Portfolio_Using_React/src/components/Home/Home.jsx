@@ -5,8 +5,7 @@ export default function Home(){
     return (
       <>
       <img 
-          src="https://images.pexels.com/photos/28878784/pexels-photo-28878784/free-photo-of-majestic-mountain-landscape-at-sunrise.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
-          alt=""
+            src="https://drive.google.com/thumbnail?id=1kKllMGHNiEq14ThgIm8YmGmRNnbkUd8m" alt=""
       />
   </>
   
