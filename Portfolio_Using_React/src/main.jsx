@@ -5,7 +5,6 @@ import Layout from './components/Layout.jsx'
 import { Route } from 'react-router-dom';
 import './index.css';
 import Home from './components/Home/Home.jsx';
-import logo from './assets/logo.png'
 
 
 const router = createBrowserRouter(
