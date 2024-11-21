@@ -5,19 +5,11 @@ export default function Footer (){
         return (
             <footer className="bg-white border-y">
                 <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
-                    <div className="md:flex md:justify-between">
-                        <div className="mb-6 md:mb-0">
-                            <Link to="/" className="flex items-center">
-                                <img
-                                    src="https://drive.google.com/file/d/1V0CJr2hMImTuIKXHxVCI3QZ9Dr0i4RMz/view?usp=sharing"
-                                    className="mr-3 h-16"
-                                    alt="Logo"
-                                />
-                            </Link>
-                        </div>
+                    {/* <div className="md:flex md:justify-between">
+                       
                         <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
                         </div>
-                    </div>
+                    </div> */}
                     <hr className="my-6 border-gray-200 sm:mx-auto lg:my-8" />
                     <div className="sm:flex sm:items-center sm:justify-between">
                         <span className="text-sm text-gray-500 sm:text-center">
@@ -30,7 +22,7 @@ export default function Footer (){
                         <div className="flex mt-4 space-x-5 sm:justify-center sm:mt-0">
                         <Link to="#" className="text-gray-500">
                                 <svg
-                                    className="w-4 h-4"
+                                    className="w-[30px] h-[30px] transition-all duration-300 hover:scale-110"
                                     aria-hidden="true"
                                     xmlns="http://www.w3.org/2000/svg" 
                                     viewBox="0 0 496 512">
@@ -39,9 +31,9 @@ export default function Footer (){
                                 <span className="sr-only">GitHub account</span>
                             </Link>
 
-                        <Link to="#" className="text-gray-500">
+                        <Link to="#" className="text-gray-500 transition-all duration-300 hover:scale-110">
                                 <svg
-                                    className="w-4 h-4"
+                                    className="w-[30px] h-[30px]"
                                     aria-hidden="true"
                                     xmlns="http://www.w3.org/2000/svg" 
                                     viewBox="0 0 448 512">
@@ -50,9 +42,9 @@ export default function Footer (){
                                 <span className="sr-only">LinkedIn account</span>
                             </Link>
 
-                            <Link to="#" className="text-gray-500">
+                            <Link to="#" className="text-gray-500 transition-all duration-300 hover:scale-110">
                                 <svg
-                                    className="w-4 h-4"
+                                    className="w-[30px] h-[30px]"
                                     aria-hidden="true"
                                     xmlns="http://www.w3.org/2000/svg" 
                                     viewBox="0 0 448 512">
@@ -61,9 +53,9 @@ export default function Footer (){
                                 <span className="sr-only">Twitter page</span>
                             </Link>
 
-                            <Link to="#" className="text-gray-500">
+                            <Link to="#" className="text-gray-500 transition-all duration-300 hover:scale-110">
                                 <svg
-                                    className="w-4 h-4"
+                                    className="w-[30px] h-[30px]"
                                     aria-hidden="true"
                                     xmlns="http://www.w3.org/2000/svg" 
                                     viewBox="0 0 448 512">
@@ -72,9 +64,10 @@ export default function Footer (){
                                 <span className="sr-only">Instagram account</span>
                             </Link>
 
-                            <Link to="#" className="text-gray-500 hover:text-gray-900">
+                            <Link to="#" className="text-gray-500 hover:text-gray-900 transition-all duration-300 hover:scale-110">
                                 <svg
-                                    className="w-4 h-4"
+                                    // className="w-4 h-4"
+                                    className="w-[30px] h-[30px]"
                                     aria-hidden="true"
                                     xmlns="http://www.w3.org/2000/svg" 
                                     viewBox="0 0 512 512">
