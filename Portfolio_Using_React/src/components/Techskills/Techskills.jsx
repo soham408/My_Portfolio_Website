@@ -1,10 +1,18 @@
 import React from 'react'
-// import skillImg from './src/images/html.png'
+import Images from './assets/html.jpg'
 
 export default function Techskills() {
     return (
-        <>
-            <h1>SohamBambade</h1>
-        </>
+        
+            <ul>
+                <li>
+                    {/* <img src='html.jpg' alt="/no image" /> */}
+                    <img src="Images" alt="/no image" />
+                    
+                </li>
+            </ul>
+        
+        
+      
 )
 }
