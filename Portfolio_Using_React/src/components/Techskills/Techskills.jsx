@@ -5,8 +5,8 @@ export default function Techskills() {
     return (
         
             <ul>
-                <h1 className='text-6xl font-serif text-center pt-[100px] '>Technical Skills</h1>
-                <li className='flex space-x-6 justify-center pt-[250px] '>
+                <h1 className='text-6xl font-serif text-center pt-[100px]  '>Technical Skills</h1>
+                <li className='flex space-x-6 justify-center pt-[190px] '>
 
                      {/* From Public Folder (Path Way) */}
 
@@ -40,6 +40,11 @@ export default function Techskills() {
                             src="https://drive.google.com/thumbnail?id=11wdQG5IL1ZABEUnwmljsV5IdaiXvpjOo" alt="" srcset="" />
                             <img className='w-[100px] h-[100px] transform hover:rotate-45 transition duration-300 h-full' 
                             src="https://drive.google.com/thumbnail?id=14noxHp-JB3UcniwkEEtHd_nkL8QmTW4z" alt="" srcset="" />
+                            <img className='w-[100px] h-[100px] bg-none transform hover:rotate-45 transition duration-300 h-full' 
+                            src="https://drive.google.com/thumbnail?id=13bpKcB-N9lKANMcD8v2tofj3I06M_jFh" alt="" srcset="" />
+                            <img className='w-[100px] h-[100px] transform hover:rotate-45 transition duration-300 h-full' 
+                            src="https://drive.google.com/thumbnail?id=1XZeNOLSBakntzevOL0DOPBbxIhgNJb0Q" alt="" srcset="" />
+                            
                 </li>
             </ul>
         

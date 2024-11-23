@@ -14,15 +14,15 @@ export default function Footer (){
                     <div className="sm:flex sm:items-center sm:justify-between">
                         <span className="text-sm text-gray-500 sm:text-center">
                             © 2025 . 
-                            <a href="https://soham408.github.io/GitHub_login_page_UI/" className="hover:underline">
+                            <a href="https://github.com/soham408" className=" hover:underline">
                                  SohamBambade
                             </a>
                             . All Rights Reserved.
                         </span>
                         <div className="flex mt-4 space-x-5 sm:justify-center sm:mt-0">
-                        <Link to="#" className="text-gray-500">
+                        <Link to="https://github.com/soham408">
                                 <svg
-                                    className="w-[30px] h-[30px] transition-all duration-300 hover:scale-110"
+                                    className="w-[30px] h-[30px] transform hover:rotate-45 transition duration-300 h-full"
                                     aria-hidden="true"
                                     xmlns="http://www.w3.org/2000/svg" 
                                     viewBox="0 0 496 512">
@@ -31,7 +31,7 @@ export default function Footer (){
                                 <span className="sr-only">GitHub account</span>
                             </Link>
 
-                        <Link to="#" className="text-gray-500 transition-all duration-300 hover:scale-110">
+                        <Link to="www.linkedin.com/in/soham408" className="transform hover:rotate-45 transition duration-300 h-full">
                                 <svg
                                     className="w-[30px] h-[30px]"
                                     aria-hidden="true"
@@ -42,7 +42,7 @@ export default function Footer (){
                                 <span className="sr-only">LinkedIn account</span>
                             </Link>
 
-                            <Link to="#" className="text-gray-500 transition-all duration-300 hover:scale-110">
+                            <Link to="https://x.com/soham_bambade" className="transform hover:rotate-45 transition duration-300 h-full">
                                 <svg
                                     className="w-[30px] h-[30px]"
                                     aria-hidden="true"
@@ -53,7 +53,7 @@ export default function Footer (){
                                 <span className="sr-only">Twitter page</span>
                             </Link>
 
-                            <Link to="#" className="text-gray-500 transition-all duration-300 hover:scale-110">
+                            <Link to="https://www.instagram.com/_.soha_m_/" className="transform hover:rotate-45 transition duration-300 h-full">
                                 <svg
                                     className="w-[30px] h-[30px]"
                                     aria-hidden="true"
@@ -64,7 +64,7 @@ export default function Footer (){
                                 <span className="sr-only">Instagram account</span>
                             </Link>
 
-                            <Link to="#" className="text-gray-500 hover:text-gray-900 transition-all duration-300 hover:scale-110">
+                            <Link to="https://www.facebook.com/soham.bambade" className="transform hover:rotate-45 transition duration-300 h-full">
                                 <svg
                                     // className="w-4 h-4"
                                     className="w-[30px] h-[30px]"
