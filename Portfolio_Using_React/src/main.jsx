@@ -6,6 +6,7 @@ import Layout from './Layout.jsx'
 import Home from './components/Home/Home.jsx';
 import Techskills from './components/Techskills/Techskills.jsx';
 import Projects from './components/Projects/Projects.jsx';
+import About from './components/About/About.jsx';
 
 
 const router = createBrowserRouter(
@@ -14,6 +15,7 @@ const router = createBrowserRouter(
         <Route path='' element={<Home />} />
         <Route path='Techskills' element={<Techskills />} />
         <Route path='Projects' element={<Projects />} />
+        <Route path='About' element={<About />} />
         
       </Route>
 

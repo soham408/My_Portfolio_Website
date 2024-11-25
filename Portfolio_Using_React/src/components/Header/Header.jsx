@@ -3,11 +3,13 @@ import {Link, NavLink} from 'react-router-dom'
 
  
  export default function Header () {
+    // document.body.style.backgroundColor = "lightblue";
+
     return (
         <>
             <header className="shadow sticky z-50 top-0">
-            <nav className="bg-white border-gray-200 px-4 lg:px-6 py-2.5">
-                <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl ">
+            {/* <nav className="bg-white border-gray-200 px-4 lg:px-6 py-2.5"> */}
+                <div className="pt-5 flex flex-wrap justify-between items-center mx-auto max-w-screen-xl ">
                     <div className=''>
                     <Link to="/" className="flex items-center ">
                         <img 
@@ -31,40 +33,40 @@ import {Link, NavLink} from 'react-router-dom'
                                 <NavLink 
                                     to={"/"}
                                     className={({isActive}) =>
-                                    ` hover:bg-gray-50  flex justify-center  p-4  bg-gray-200 ${isActive ? 'text-orange-700' : 'text-black-600'} rounded-full`
+                                    `font-serif hover:bg-gray-50  flex justify-center  p-4  bg-gray-200 ${isActive ? 'text-orange-700' : 'text-black'} rounded-full`
                                 }
                                 >
-                                    Home
+                                    <strong> Home </strong>
                                 </NavLink>
                             </li>
                             <li>
                                 <NavLink
                                     to={"/Techskills"} 
                                     className={({isActive}) =>
-                                        `${isActive ? 'text-orange-600' : 'text-black-600'} hover:bg-gray-50 flex justify-center p-4 bg-gray-200 rounded-full`}>
-                                    TechSkills
+                                        `${isActive ? 'text-orange-600' : 'text-black'} font-serif hover:bg-gray-50 flex justify-center p-4 bg-gray-200 rounded-full`}>
+                                    <strong> TechSkills </strong>
                                 </NavLink>
                             </li>
                             <li>
                                 <NavLink 
                                 to={"/Projects"}
                                     className={({isActive})=>
-                                        `${isActive ? 'text-orange-600' : 'text-black-600'} hover:bg-gray-50 flex justify-center p-4 bg-gray-200 rounded-full`}>
-                                    Projects
+                                        `${isActive ? 'text-orange-600' : 'text-black'} font-serif hover:bg-gray-50 flex justify-center p-4 bg-gray-200 rounded-full`}>
+                                   <strong> Projects </strong>
                                 </NavLink>
                             </li>
                             <li>
                                 <NavLink 
                                     to={"/About"}
                                     className={({isActive})=>
-                                        `${isActive ? 'text-orange-600' : 'text-black-600'} text-black-600 hover:bg-gray-50 flex justify-center p-4 bg-gray-200 rounded-full`}>
-                                    About
+                                        `${isActive ? 'text-orange-600' : 'text-black'} font-serif text-black-600 hover:bg-gray-50 flex justify-center p-4 bg-gray-200 rounded-full`}>
+                                    <strong> About </strong>
                                 </NavLink>
                             </li>
                         </ul>
                     </div>
                 </div>
-            </nav>
+            {/* </nav> */}
         </header>
         </>
     
