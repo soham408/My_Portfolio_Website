@@ -7,7 +7,7 @@ export default function About (){
         <>
         {/* <div className='text-6xl  font-serif text-center  '>About</div> */}
         <h1 className='text-[#E85A4F] text-6xl  font-serif text-center pt-[100px]'>About</h1>
-        <h1 className='text-[#E85A4F] font-serif text-center pt-[80px] pb-[100px]'>Hellow! I'm Soham, <br /> <br />
+        <h1 className='text-[#E85A4F] font-serif text-center pt-[80px] pb-[100px]'>Hellow! I'm  Soham, <br /> <br />
          <strong> A passionate beginner web and software developer </strong> <br /> <br />
          excited to build intuitive, functional, and visually appealing digital experiences. <br /> 
          I recently started my journey in development, transforming creative ideas into <br /> working code. 

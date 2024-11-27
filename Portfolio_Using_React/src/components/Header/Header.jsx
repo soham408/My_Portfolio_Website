@@ -33,18 +33,18 @@ import {Link, NavLink} from 'react-router-dom'
                                 <NavLink 
                                     to={"/"}
                                     className={({isActive}) =>
-                                    `bg-[#D8C3A5] font-serif hover:bg-gray-50  flex justify-center  p-4  bg-gray-200 ${isActive ? 'text-orange-700' : 'text-black'} rounded-full`
+                                    `scroll-smooth bg-[#D8C3A5] font-serif hover:bg-gray-50  flex justify-center  p-4  bg-gray-200 ${isActive ? 'text-orange-700' : 'text-black'} rounded-full`
                                 }
                                 >
-                                    <strong> Home </strong>
+                                 <a href='#home'>   <strong> Home </strong></a>
                                 </NavLink>
                             </li>
                             <li>
                                 <NavLink
                                     to={"/Techskills"} 
                                     className={({isActive}) =>
-                                        `${isActive ? 'text-orange-600' : 'text-black'} bg-[#D8C3A5] font-serif hover:bg-gray-50 flex justify-center p-4 bg-gray-200 rounded-full`}>
-                                    <strong> TechSkills </strong>
+                                        `${isActive ? 'text-orange-600' : 'text-black'} scroll-smooth bg-[#D8C3A5] font-serif hover:bg-gray-50 flex justify-center p-4 bg-gray-200 rounded-full`}>
+                                   <a href="#tech"> <strong> TechSkills </strong> </a>
                                 </NavLink>
                             </li>
                             <li>
