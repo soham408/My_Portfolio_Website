@@ -6,7 +6,7 @@ export default function Contact (){
        <div className='pl-[28px]'>
         <div className='pt-[30px] place-items-center'>
         {/* <div className='p-6 mr-[1000px] ml-[50px] bg-gray-100 sm:rounded-lg'> */}
-        <div className='p-7 bg-gray-400 sm:rounded-lg'>
+        <div className='p-7 bg-gray-250 sm:rounded-lg'>
         <h1 className='text-[30px] flex items-center justify-center'><strong> Get In Touch : </strong><br /></h1>
         <h3 className='flex items-center justify-center flex flex-col'>Fill The Form To Start The Conversation</h3>
         <div className='flex items-center justify-center space-x-2 mt-6'>
