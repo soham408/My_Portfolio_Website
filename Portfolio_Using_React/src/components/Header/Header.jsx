@@ -63,6 +63,15 @@ import {Link, NavLink} from 'react-router-dom'
                                     <strong> About </strong>
                                 </NavLink>
                             </li>
+
+                            <li>
+                                <NavLink 
+                                    to={"/Contact"}
+                                    className={({isActive})=>
+                                        `${isActive ? 'text-orange-600' : 'text-black'} bg-[#D8C3A5] font-serif text-black-600 hover:bg-gray-50 flex justify-center p-4 bg-gray-200 rounded-full`}>
+                                    <strong> Contact </strong>
+                                </NavLink>
+                            </li>
                         </ul>
                     </div>
                 </div>
