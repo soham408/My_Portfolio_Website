@@ -5,7 +5,7 @@ export default function Techskills() {
     return (
         
             <ul>
-                <h1 className='text-[#E85A4F] text-6xl font-serif text-center pt-[100px]  '>Technical Skills</h1>
+                <h1 className='text-black text-6xl font-serif text-center pt-[100px]  '>Technical Skills</h1>
                 <li className='flex space-x-6 justify-center pt-[178px] pb-[100px]'>
 
                      {/* From Public Folder (Path Way) */}
