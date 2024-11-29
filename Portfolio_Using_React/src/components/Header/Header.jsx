@@ -41,7 +41,7 @@ import {Link, NavLink} from 'react-router-dom'
                             </li>
                             <li>
                                 <NavLink
-                                    to={"/Techskills"} 
+                                    to={"/techskills"} 
                                     className={({isActive}) =>
                                         `${isActive ? 'text-orange-600' : 'text-black'} scroll-smooth bg-[#D8C3A5] font-serif hover:bg-gray-50 flex justify-center p-4 bg-gray-200 rounded-full`}>
                                    <a href="#tech"> <strong> TechSkills </strong> </a>
@@ -49,7 +49,7 @@ import {Link, NavLink} from 'react-router-dom'
                             </li>
                             <li>
                                 <NavLink 
-                                to={"/Projects"}
+                                to={"/projects"}
                                     className={({isActive})=>
                                         `${isActive ? 'text-orange-600' : 'text-black'} bg-[#D8C3A5] font-serif hover:bg-gray-50 flex justify-center p-4 bg-gray-200 rounded-full`}>
                                    <strong> Projects </strong>
@@ -57,7 +57,7 @@ import {Link, NavLink} from 'react-router-dom'
                             </li>
                             <li>
                                 <NavLink 
-                                    to={"/About"}
+                                    to={"/about"}
                                     className={({isActive})=>
                                         `${isActive ? 'text-orange-600' : 'text-black'} bg-[#D8C3A5] font-serif text-black-600 hover:bg-gray-50 flex justify-center p-4 bg-gray-200 rounded-full`}>
                                     <strong> About </strong>
@@ -66,10 +66,19 @@ import {Link, NavLink} from 'react-router-dom'
 
                             <li>
                                 <NavLink 
-                                    to={"/Contact"}
+                                    to={"/contact"}
                                     className={({isActive})=>
                                         `${isActive ? 'text-orange-600' : 'text-black'} bg-[#D8C3A5] font-serif text-black-600 hover:bg-gray-50 flex justify-center p-4 bg-gray-200 rounded-full`}>
                                     <strong> Contact </strong>
+                                </NavLink>
+                            </li>
+
+                            <li>
+                                <NavLink 
+                                    to={"/github"}
+                                    className={({isActive})=>
+                                        `${isActive ? 'text-orange-600' : 'text-black'} bg-[#D8C3A5] font-serif text-black-600 hover:bg-gray-50 flex justify-center p-4 bg-gray-200 rounded-full`}>
+                                    <strong> Gtihub </strong>
                                 </NavLink>
                             </li>
                         </ul>
